@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenWork | Коворкинги в Чите</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <div class="logo">GreenWork<span>Чита</span></div>
+    <nav>
+      <a href="index.html" class="active">Главная</a>
+      <a href="about.html">О нас</a>
+      <a href="coworkings.html">Коворкинги</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <!-- БЛОК 1: Что такое коворкинг? (добавлен по требованию преподавателя) -->
+    <div class="info-block">
+      <div class="info-text">
+        <span class="info-badge">Что такое коворкинг?</span>
+        <h2>Рабочее пространство, которое снимают на час, день или месяц</h2>
+        <p>Коворкинг — это готовый офис для фрилансеров, маленьких команд и предпринимателей. Вы лишь платите за аренду, не ремонт и коммуналку. Просто приходите и работаете в комфортной обстановке с Wi‑Fi, кухней и зоной отдыха.</p>
+        <p><strong>GreenWork</strong> — это коворкинги в Чите с живыми растениями, натуральными материалами и природным светом. Подходит для тех, кто ценит уют и продуктивность.</p>
+      </div>
+      <div class="info-image">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=350&fit=crop" alt="Работа в коворкинге">
+      </div>
+    </div>
+
+    <!-- БЛОК 2: Герой (оставлен, но сделан более привлекательным) -->
+    <div class="hero">
+      <h1>Работайте в гармонии с природой</h1>
+      <p>Коворкинги в Чите с зелёной атмосферой, светом и уютом для ваших проектов</p>
+      <div style="margin-top: 40px;">
+        <button class="btn-primary" id="heroOpenModal">Выбрать коворкинг</button>
+      </div>
+    </div>
+
+    <!-- БЛОК 3: Преимущества (уже были) -->
+    <section>
+      <h2 style="text-align: center;">Почему выбирают GreenWork</h2>
+      <div class="feature-grid">
+        <div class="feature-item"><strong>Природные материалы</strong><br>Живые растения, дерево, натуральное освещение</div>
+        <div class="feature-item"><strong>Гибкие тарифы</strong><br>Почасовая оплата, дневные абонементы, фикс-места</div>
+        <div class="feature-item"><strong>Для любых задач</strong><br>Переговорки, тихие зоны, кухни, парковки</div>
+      </div>
+    </section>
+
+    <!-- БЛОК 4: Галерея (уже была) -->
+    <section style="margin: 60px 0;">
+      <h2 style="text-align: center;">Вдохновляющие пространства</h2>
+      <div class="gallery-grid">
+        <div class="gallery-card"><img src="images/зона отдыха.jpg" alt="Зона отдыха"><p>Светлая зона отдыха</p></div>
+        <div class="gallery-card"><img src="images/командный офис.jpg" alt="Командный офис"><p>Командный офис</p></div>
+        <div class="gallery-card"><img src="images/терраса.jpg" alt="Терраса"><p>Терраса на крыше</p></div>
+      </div>
+    </section>
+
+    <!-- БЛОК 5: Популярные коворкинги -->
+    <section>
+      <h2>Популярные коворкинги</h2>
+      <div id="homeCoworkingsPreview" class="cards-grid"></div>
+      <div style="text-align: center; margin: 20px 0;"><a href="coworkings.html" class="btn-outline">Смотреть все коворкинги</a></div>
+    </section>
+
+    <!-- БЛОК 6: Как арендовать -->
+    <section class="steps-section">
+      <h2 style="text-align: center;">Как арендовать место?</h2>
+      <div class="steps-grid">
+        <div class="step">1. Выберите коворкинг</div>
+        <div class="step">2. Оставьте заявку</div>
+        <div class="step">3. Мы свяжемся</div>
+        <div class="step">4. Вы работаете</div>
+      </div>
+    </section>
+
+    <!-- БЛОК 7: Отзывы -->
+    <section class="reviews-section">
+      <h2>Отзывы резидентов</h2>
+      <div class="reviews-grid">
+        <div class="review-card">“Отличное место для сосредоточенной работы. Чисто, тихо.”<br><strong>— Анна, дизайнер</strong></div>
+        <div class="review-card">“Арендуем офис для IT-команды. Очень удобно.”<br><strong>— Дмитрий, стартап</strong></div>
+        <div class="review-card">“Приятный зелёный интерьер, вежливый персонал.”<br><strong>— Елена, копирайтер</strong></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col"><h4>GreenWork</h4><p>Коворкинги в Забайкальском крае</p></div>
+      <div class="footer-col"><h4>Контакты</h4><p>+7 (924) 123-45-67</p><p>hello@greenworkchita.ru</p></div>
+      <div class="footer-col"><h4>Режим работы</h4><p>Ежедневно 09:00-21:00</p></div>
+    </div>
+    <div class="copyright">© 2026 GreenWork — природные пространства для работы в Чите</div>
+  </div>
+</footer>
+
+<!-- Модальное окно заявки -->
+<div id="feedbackModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h3>Оставить заявку</h3>
+    <form id="feedbackForm">
+      <div class="form-group"><label>ФИО</label><input type="text" id="fbName" required placeholder="Иванов Иван Иванович"></div>
+      <div class="form-group"><label>Телефон</label><input type="tel" id="fbPhone" required placeholder="+7 999 123-45-67"></div>
+      <div class="form-group"><label>Email</label><input type="email" id="fbEmail" required placeholder="ivan@example.com"></div>
+      <div class="form-group"><label>Коворкинг</label><select id="coworkingSelect" required></select></div>
+      <div class="form-group"><label>Комментарий</label><textarea id="fbComment" rows="2"></textarea></div>
+      <button type="submit" class="btn-primary">Отправить</button>
+    </form>
+  </div>
+</div>
+<button id="floatingBtn" class="floating-btn">Заявка</button>
+
+<script src="main.js"></script>
+<script>
+  const heroBtn = document.getElementById("heroOpenModal");
+  if(heroBtn) heroBtn.onclick = () => { const m = document.getElementById("feedbackModal"); if(m) m.style.display="flex"; populateCoworkingSelect("coworkingSelect"); };
+</script>
+</body>
+</html>
